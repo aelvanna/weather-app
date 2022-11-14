@@ -1,0 +1,82 @@
+label {
+  text-align: center;
+  padding-top: 10px;
+  padding-left: 100px;
+  padding-bottom: 5px;
+}
+
+h1,
+h2 {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+h4,
+h5 {
+  font-size: 20px;
+}
+
+h6 {
+  display: inline;
+}
+
+.app-container {
+  border: solid #085fd7 5px;
+  border-radius: 0.5em;
+  position: static;
+  width: 800px;
+  height: 390px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.weather-today-info {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  position: fixed;
+  text-align: center;
+  margin-top: 2em;
+  margin-left: 8em;
+  padding-right: 15px;
+  border-right: solid black 5px;
+}
+
+.forecast-title {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  position: relative;
+  text-align: left;
+  margin-top: 2em;
+  margin-left: 19em;
+  padding-left: 1em;
+}
+
+.weather-forecast-info {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  position: relative;
+  text-align: left;
+  margin-top: 2.4em;
+  margin-left: 19em;
+  padding-left: 1em;
+}
+
+#celsius-link,
+#fahrenheit-link {
+  text-decoration: none;
+}
+
+#current-date-time {
+  font-size: 20px;
+}
+
+#today-weather {
+  font-size: 15px;
+}
