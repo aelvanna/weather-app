@@ -27,6 +27,10 @@ h6 {
   display: inline;
 }
 
+footer {
+  text-align: center;
+}
+
 .app-container {
   border: solid #085fd7 5px;
   border-radius: 0.5em;
@@ -66,6 +70,10 @@ h6 {
   margin-top: 2.4em;
   margin-left: 19em;
   padding-left: 1em;
+}
+
+.github-link {
+  text-decoration: none;
 }
 
 #celsius-link,
